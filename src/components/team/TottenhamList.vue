@@ -1,5 +1,5 @@
 <template>
-<h1>fsfs</h1>
+<h1>Liste des joueurs de {{ playersData.name }} </h1>
   <div>
  <player-card
     v-for="(player, index) in team"

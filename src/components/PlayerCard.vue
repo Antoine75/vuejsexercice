@@ -1,10 +1,10 @@
 <template>
 
-   <div class="max-w-sm rounded overflow-hidden shadow-lg">
-  <img class="h-48 w-full" :src="playerImage(player.image)" alt="">
+   <div class="max-w-sm rounded overflow-hidden shadow-lg p-8 ">
+  <img class="h-43 w-full" :src="playerImage(player.image)" alt="">
   <div class="px-6 py-4">
-    <div class="font-bold text-xl mb-2">{{ player.first_name }} {{ player.last_name }} </div>
-    <p class="text-gray-700 text-base">
+    <div class="font-bold text-xl mb-2"><h2>{{ player.first_name }} {{ player.last_name }}</h2> </div>
+    <p class=" text-base">
       {{ player.last_name }} est un joueur évoluant au poste de {{ player.position }} dans le club {{ player.team }}
     </p>
   </div>
@@ -15,6 +15,7 @@
   </div>
 
    </div>
+  
     
 </template>
 

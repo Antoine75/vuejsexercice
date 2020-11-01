@@ -7,8 +7,8 @@
       href="#" 
       @click="selectComponent(link.component)" 
     >
-      {{ link.name }}
-     | </a>
+      {{ link.name }}  |
+        </a>
     
   </div>
   
