@@ -1,4 +1,4 @@
-# renducoursapi
+# renducoursvuejs
 
 ## Project setup
 ```
