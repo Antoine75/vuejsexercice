@@ -1,0 +1,33 @@
+{
+
+    "name": "Joueur de Chelsea",
+    "players": [
+    
+        {
+            "identifier": 1404,
+            "first_name": "Marcos",
+            "last_name": "Alonso",
+            "team": "Chelsea",
+            "position": "Défenseur",
+            "image": "marcosalonso.jpg"
+        },
+        {
+            "identifier": 1201,
+            "first_name": "Cesar",
+            "last_name": "Azpilicueta",
+            "team": "Chelsea",
+            "position": "Défenseur",
+            "image": "cesarazpilicueta.jpg"
+        },
+        
+        {
+            "identifier": 1026,
+            "first_name": "Eden",
+            "last_name": "Hazard",
+            "team": "Chelsea",
+            "position": "Millieu de terrain",
+            "image": "edenhazard.jpg"
+        }
+    
+    ]
+    }

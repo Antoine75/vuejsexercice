@@ -20,10 +20,10 @@ export default {
   data() {
     return {
       navigation: [
-        { name: "Tous les joueurs", component: "player-list" },
+        { name: "Tous les joueurs", component: "player-list"},
         { name: "Tottenham", component: "tottenham-list"},
-        { name: "Chelsea", component: "chelsea-list"},
-        { name: "Manchester United", component: "manchesterUnited-list"},
+        { name:"Chelsea",component:"chelsea-list"},
+        { name: "ManchesterUnited", component: "manchester-list"},
         { name: "Arsenal", component: "arsenal-list"},
       ]
     }

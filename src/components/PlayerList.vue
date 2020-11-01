@@ -1,7 +1,6 @@
 <template>
-  <a href="" @click="selectTeam('Arsenal')">Arsenal</a>
-  <a href="" @click="selectTeam('Chelsea')">Chelsea</a>
-  <h1>Liste des joueurs de {{ playersData.name }} </h1>
+ 
+<h1>Liste des joueurs de {{ playersData.name }} </h1>
 
   
 
@@ -23,11 +22,12 @@ export default {
   name: "player-List",
   components: {
     PlayerCard,
+   
     
   },
   data() {
     return {
-      playersData : playersData.players,
+      playersData : playersData,
       team: playersData.players,
       selection: []
     }
@@ -38,7 +38,7 @@ export default {
       this.$emit('update-selection', player)
     },
     selectTeam(selectedTeam){
-      const newTeam = this.team.filter(player=>{player.team == selectedTeam})
+      const newTeam = this.player.filter(player=>{player.team == selectedTeam})
       console.log(newTeam)
       this.team = newTeam
     }

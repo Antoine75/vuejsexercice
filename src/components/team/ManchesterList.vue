@@ -14,10 +14,10 @@
 
 <script>
 import PlayerCard from '../PlayerCard'
-import playersData from '../../assets/data/playerChelsea.json'
+import playersData from '../../assets/data/playerManchester.json'
 
 export default {
-    name: "chelsea-list",
+    name: "manchester-list",
   
   components : {
   PlayerCard,

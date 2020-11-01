@@ -1,0 +1,33 @@
+{
+
+    "name": "Joueur de Manchester United",
+    "players": [
+    
+        {
+            "identifier": 1001,
+            "first_name": "Eric",
+            "last_name": "Bailly",
+            "team": "Manchester United",
+            "position": "Défenseur",
+            "image": "ericbailly.jpg"
+        },
+        {
+            "identifier": 1017,
+            "first_name": "David",
+            "last_name": "De Gea",
+            "team": "Manchester United",
+            "position": "Gardien",
+            "image": "daviddegea.jpg"
+        },
+        
+        {
+            "identifier": 1031,
+            "first_name": "Juan",
+            "last_name": "Mata",
+            "team": "Manchester United",
+            "position": "Millieu de terrain",
+            "image": "juanmata.jpg"
+        }
+    
+    ]
+    }
