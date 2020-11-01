@@ -1,0 +1,51 @@
+<template>
+  <a href="" @click="selectTeam('Arsenal')">Arsenal</a>
+  <a href="" @click="selectTeam('Chelsea')">Chelsea</a>
+  <h1>Liste des joueurs de {{ playersData.name }} </h1>
+
+  
+
+  <player-card
+    v-for="(player, index) in team"
+    :key="index"
+    :player="player"
+    @add-player="addPlayerToSelection"
+    >
+  </player-card>
+</template>
+
+<script>
+import playersData from '../assets/data/players.json'
+import PlayerCard from './PlayerCard.vue'
+
+
+export default {
+  name: "player-List",
+  components: {
+    PlayerCard,
+    
+  },
+  data() {
+    return {
+      playersData : playersData.players,
+      team: playersData.players,
+      selection: []
+    }
+  },
+  methods: {
+    addPlayerToSelection(player) {
+      this.selection.push(player)
+      this.$emit('update-selection', player)
+    },
+    selectTeam(selectedTeam){
+      const newTeam = this.team.filter(player=>{player.team == selectedTeam})
+      console.log(newTeam)
+      this.team = newTeam
+    }
+  }
+}
+</script>
+
+<style>
+
+</style>

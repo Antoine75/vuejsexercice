@@ -1,0 +1,126 @@
+{
+
+"name": "Premier League",
+"players": [
+
+    {
+        "identifier": 1003,
+        "first_name": "Hector",
+        "last_name": "Bellerin",
+        "team": "Arsenal",
+        "position": "Défenseur",
+        "image": "hectorbellerin.jpg"
+    },
+    {
+        "identifier": 1101,
+        "first_name": "Petr",
+        "last_name": "Cech",
+        "team": "Arsenal",
+        "position": "Gardien",
+        "image": "petrcech.jpg"
+    },
+    {
+        "identifier": 1402,
+        "first_name": "Olivier",
+        "last_name": "Giroud",
+        "team": "Arsenal",
+        "position": "Attaquant",
+        "image": "oliviergiroud.jpg"
+    },
+    
+    {
+        "identifier": 1009,
+        "first_name": "Laurent",
+        "last_name": "Koscielny",
+        "team": "Arsenal",
+        "position": "Défenseur",
+        "image": "laurentkoscielny.jpg"
+    },
+    {
+        "identifier": 1033,
+        "first_name": "Mesut",
+        "last_name": "Ozil",
+        "team": "Arsenal",
+        "position": "Millieu de terrain",
+        "image": "mesutozil.jpg"
+    },
+    
+    {
+        "identifier": 1404,
+        "first_name": "Marcos",
+        "last_name": "Alonso",
+        "team": "Chelsea",
+        "position": "Défenseur",
+        "image": "marcosalonso.jpg"
+    },
+    {
+        "identifier": 1201,
+        "first_name": "Cesar",
+        "last_name": "Azpilicueta",
+        "team": "Chelsea",
+        "position": "Défenseur",
+        "image": "cesarazpilicueta.jpg"
+    },
+    
+    {
+        "identifier": 1026,
+        "first_name": "Eden",
+        "last_name": "Hazard",
+        "team": "Chelsea",
+        "position": "Millieu de terrain",
+        "image": "edenhazard.jpg"
+    },
+    
+    {
+        "identifier": 1001,
+        "first_name": "Eric",
+        "last_name": "Bailly",
+        "team": "Manchester United",
+        "position": "Défenseur",
+        "image": "ericbailly.jpg"
+    },
+    {
+        "identifier": 1017,
+        "first_name": "David",
+        "last_name": "De Gea",
+        "team": "Manchester United",
+        "position": "Gardien",
+        "image": "daviddegea.jpg"
+    },
+    
+    {
+        "identifier": 1031,
+        "first_name": "Juan",
+        "last_name": "Mata",
+        "team": "Manchester United",
+        "position": "Millieu de terrain",
+        "image": "juanmata.jpg"
+    },
+    
+    {
+        "identifier": 1000,
+        "first_name": "Toby",
+        "last_name": "Alderweireld",
+        "team": "Tottenham",
+        "position": "Défenseur",
+        "image": "tobyalderweireld.jpg"
+    },
+    {
+        "identifier": 1401,
+        "first_name": "Dele",
+        "last_name": "Alli",
+        "team": "Tottenham",
+        "position": "Millieu de terrain",
+        "image": "delealli.jpg"
+    },
+    {
+        "identifier": 2310,
+        "first_name": "Eric",
+        "last_name": "Dier",
+        "team": "Tottenham",
+        "position": "Millieu de terrain",
+        "image": "ericdier.jpg"
+    }
+    
+]
+}
