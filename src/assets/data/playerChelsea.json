@@ -27,6 +27,22 @@
             "team": "Chelsea",
             "position": "Millieu de terrain",
             "image": "edenhazard.jpg"
+        },
+        {
+            "identifier": 999,
+            "first_name": "Timo",
+            "last_name": "Werner",
+            "team": "Chelsea",
+            "position": "Attaquant",
+            "image": "werner.jpg"
+        },
+        {
+            "identifier": 1026,
+            "first_name": "Ngolo",
+            "last_name": "Kante",
+            "team": "Chelsea",
+            "position": "Millieu de terrain",
+            "image": "kante.jpg"
         }
     
     ]

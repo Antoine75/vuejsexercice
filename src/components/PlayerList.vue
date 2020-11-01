@@ -4,7 +4,7 @@
 
   
 
-  <player-card class="flex content-center flex-wrap"
+  <player-card class=""
     v-for="(player, index) in team"
     :key="index"
     :player="player"

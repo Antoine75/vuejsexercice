@@ -1,6 +1,6 @@
 <template>
 
-   <div class="max-w-sm rounded overflow-hidden shadow-lg p-8 ">
+   <div class="max-w-sm rounded overflow-hidden shadow-lg p-3 ">
   <img class="h-43 w-full" :src="playerImage(player.image)" alt="">
   <div class="px-6 py-4">
     <div class="font-bold text-xl mb-2"><h2>{{ player.first_name }} {{ player.last_name }}</h2> </div>

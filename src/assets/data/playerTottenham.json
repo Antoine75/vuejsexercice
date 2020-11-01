@@ -26,6 +26,22 @@
             "team": "Tottenham",
             "position": "Millieu de terrain",
             "image": "ericdier.jpg"
+        },
+        {
+            "identifier": 4520,
+            "first_name": "Hugo",
+            "last_name": "Lloris",
+            "team": "Tottenham",
+            "position": "Gardien",
+            "image": "hugolloris.jpg"
+        },
+        {
+            "identifier": 1017,
+            "first_name": "Moussa",
+            "last_name": "Sissoko",
+            "team": "Tottenham",
+            "position": "Millieu de terrain",
+            "image": "sissoko.jpg"
         }
     
     ]

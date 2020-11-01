@@ -27,6 +27,22 @@
             "team": "Manchester United",
             "position": "Millieu de terrain",
             "image": "juanmata.jpg"
+        },
+        {
+            "identifier": 1299,
+            "first_name": "Marcus",
+            "last_name": "Rashford",
+            "team": "Manchester United",
+            "position": "Attaquant",
+            "image": "marcusrashford.jpg"
+        },
+        {
+            "identifier": 1222,
+            "first_name": "Paul",
+            "last_name": "Pogba",
+            "team": "Manchester United",
+            "position": "Milieu",
+            "image": "paulpogba.jpg"
         }
     
     ]

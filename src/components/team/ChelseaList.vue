@@ -1,7 +1,7 @@
 <template>
 <h1>Liste des joueurs de {{ playersData.name }} </h1>
 
-  <div>
+  <div class="p-5 flex content-start pr-1">
  <player-card class="bg-blue-200"
     v-for="(player, index) in team"
     :key="index"

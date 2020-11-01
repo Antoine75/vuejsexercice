@@ -1,6 +1,6 @@
 <template>
 <h1>Liste des joueurs de {{ playersData.name }} </h1>
-  <div>
+  <div class="flex content-around flex-wrap">
  <player-card
     v-for="(player, index) in team"
     :key="index"
